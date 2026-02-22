@@ -1,3 +1,4 @@
-#Natours Application
-Built with tecnologies:
-node.js, express, mongoDB, mongoose
+# Natours Application
+Built with technologies:
+node.js, express, MongoDB, mongoose
+

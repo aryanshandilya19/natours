@@ -4,7 +4,8 @@
      2. Run: node utils/testEmail.js
 */
 
-require('dotenv').config({ path: `${__dirname}/../config.env` });
+const { loadEnv } = require('./config');
+loadEnv();
 const Email = require('./email');
 
 (async () => {
